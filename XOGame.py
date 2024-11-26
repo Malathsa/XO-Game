@@ -125,6 +125,6 @@ class TicTacToe:
             player = self.swap_player_turn(player) 
  
  
-if name == "__main__": 
+if __name__ == "__main__": 
     game = TicTacToe() 
     game.start()
